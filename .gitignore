@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Firebase service account keys
+*.json
+!package.json
+!package-lock.json
+trace-cd0eb-firebase-adminsdk-fbsvc-a37eafa14b.json
+
+# Uploads directory content (audio files)
+uploads/*
+!uploads/.gitkeep
+
+# Videos uploaded for analysis
+videos/*
+!videos/.gitkeep
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+format.txt
+video-list.txt

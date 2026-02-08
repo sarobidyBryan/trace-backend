@@ -1,0 +1,26 @@
+{
+  "name": "gemini-video-analyzer",
+  "version": "1.0.0",
+  "description": "Serveur Express pour tester l'analyse vidéo avec Gemini 1.5 Flash",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "gemini",
+    "video-analysis",
+    "ai",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^1.39.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "firebase-admin": "^13.6.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}

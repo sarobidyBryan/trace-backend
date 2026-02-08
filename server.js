@@ -27,6 +27,10 @@ app.use(express.json());
 app.use("/analyze", analyzeRoutes);
 app.use("/api/query", queryRoutes);
 
+app.get("/ping", (_req, res) => {
+  res.status(200).send("pong");
+});
+
 app.get("/health", (_req, res) => {
   res.json({ status: "ok", service: "Trace API", timestamp: new Date().toISOString() });
 });
